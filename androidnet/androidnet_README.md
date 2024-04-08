@@ -30,7 +30,7 @@ conn.disconnect();
 ## 2.Okhttp的使用
 
 ## 3.Socket的使用
-![socket通信模型](./androidnet_README-1712541266043.png)
+![image](https://github.com/shizishen/AnroidDemo/assets/85082613/1f4e09c7-636a-42cc-b1d1-ed32157f38f5)
 ### 客户端建立socket通信步骤（注意！！！ Android端不能将网络操作放在主线程）：
 - 创建socket对象，指明需要链接的服务器的地址和端口号
 - 链接创建后，通过输出流向服务器的地址和端口号发送请求信息
