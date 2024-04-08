@@ -8,6 +8,7 @@ Android网络开发小demo，侧滑栏底部导航栏demo，音视频多媒体de
 [Android网络操作：Httpurlconnection，Okhttp，Socket](https://github.com/shizishen/AnroidDemo/blob/master/androidnet/androidnet_README.md)
 
 ## 2.Android多媒体开发
+[Android MediaPlayer,Camera](https://github.com/shizishen/AnroidDemo/blob/master/androidmedia/Androidmedia_README.md)
 
 ## 3. Android数据存储与访问
 
