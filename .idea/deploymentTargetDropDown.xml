@@ -2,6 +2,9 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="androidmedia">
+        <State />
+      </entry>
       <entry key="androidnet">
         <State />
       </entry>
