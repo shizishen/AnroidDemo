@@ -8,6 +8,22 @@
       <entry key="androidnet">
         <State />
       </entry>
+      <entry key="androidui">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Pixel_7_Pro_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-20T04:35:09.830924627Z" />
+        </State>
+      </entry>
       <entry key="app">
         <State />
       </entry>
