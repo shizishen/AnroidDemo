@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .collapsible {
+          background-color: #FFF;
+          color: black;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+          background-color: #FFF;
+          color:#20B2AA;
+        }
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+          color:#D3D3D3;
+          background-color: white;
+          transition: max-height 0.5s ease-out;
+          font:7px;
+        }
+        .collapsible::before {
+            content: "> "; /* 添加箭头字符 */
+            margin-right: 5px; /* 设置箭头和文字之间的间距 */
+        }
+
+    </style>
+</head>
+<body>
+
+<h2>功能</h2>
+
+<button type="button" class="collapsible">添加设备</button>
+<div class="content">
+    <p>这是列表项1的
+        </p>
+</div>
+
+<button type="button" class="collapsible">摄像头测试</button>
+<div class="content">
+    <p>这是列表项2
+</p>
+</div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+          content.style.maxHeight = null;
+
+        } else {
+          content.style.display = "block";
+          content.style.maxHeight = null;
+
+        }
+      });
+    }
+</script>
+
+</body>
+</html>

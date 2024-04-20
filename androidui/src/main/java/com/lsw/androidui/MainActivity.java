@@ -85,13 +85,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        MainFragment mainFragment = MainFragment.newInstance("首页","");
+        MainFragment mainFragment = MainFragment.newInstance();
         fragmentList.add(mainFragment);
 
-        DiscoveryFragment discoveryFragment = DiscoveryFragment.newInstance("教程","");
+        DiscoveryFragment discoveryFragment = DiscoveryFragment.newInstance();
         fragmentList.add(discoveryFragment);
 
-        MineFragment mineFragment = MineFragment.newInstance("个人","");
+        MineFragment mineFragment = MineFragment.newInstance();
         fragmentList.add(mineFragment);
     }
 

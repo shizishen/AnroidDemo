@@ -6,5 +6,13 @@
 ![Screenshot_20240420_131331](https://github.com/shizishen/AnroidDemo/assets/85082613/3640397c-98dd-4040-82fa-f57c1aaa39b3)
 
 ## 2. ViewPager+Fragment实现底部导航栏
+思路：BottomNavigationView实现底部导航栏，ViewPager+Fragment滑动页面
+1. ViewPager中的滑动页面监听 接口onPageSelected()方法
+2. BottomNavigationViewr中的底部图标切换监听 接口onNavigationItemSelected()方法
+3. 滑动页面的时候改变底部导航栏图标id
+
 ![Screenshot_20240420_152731](https://github.com/shizishen/AnroidDemo/assets/85082613/a31ca04c-cd2c-4324-a95c-d9ca2a26d3ad)
+
+## 3.webview+Html实现本地html网页
+
 

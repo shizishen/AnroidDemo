@@ -8,6 +8,10 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * FragmentStatePagerAdapter并不适合用于需要保持 Fragment 所有状态的情况，例如表单输入、视频播放等。
+ * 对于这些情况，可以考虑使用 FragmentPagerAdapter 或自定义适配器来保存和恢复 Fragment 的状态。
+ */
 public class MainactivityAdapter extends FragmentStatePagerAdapter {
     List<Fragment> fragmentList = new ArrayList<>();
 
