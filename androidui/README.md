@@ -10,9 +10,16 @@
 1. ViewPager中的滑动页面监听 接口onPageSelected()方法
 2. BottomNavigationViewr中的底部图标切换监听 接口onNavigationItemSelected()方法
 3. 滑动页面的时候改变底部导航栏图标id
-
 ![Screenshot_20240420_152731](https://github.com/shizishen/AnroidDemo/assets/85082613/a31ca04c-cd2c-4324-a95c-d9ca2a26d3ad)
 
 ## 3.webview+Html实现本地html网页
+1. 关键步骤：
+```
+WebSettings webSettings = mWebView.getSettings();
+webSettings.setJavaScriptEnabled(true);
+mWebView.loadUrl("file:///android_asset/discovery.html");
+```
+![Screenshot_20240420_165137](https://github.com/shizishen/AnroidDemo/assets/85082613/46b038d2-edb1-4ee0-af9d-bf1f1b08757e)
+
 
 
