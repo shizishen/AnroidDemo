@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">androidui</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_discovery_fragment">hello discovery fragment</string>
+    <string name="hello_mine_fragment">hello mine fragment</string>
+    <string name="hello_main_fragment">hello main fragment</string>
 </resources>

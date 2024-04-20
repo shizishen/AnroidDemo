@@ -1,5 +1,6 @@
 package com.lsw.androidui;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import java.util.List;
 public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>{
 
     private List<Fruit> mFruitList;
+    private Context context;
 
     static class ViewHolder extends RecyclerView.ViewHolder {
         View fruitView;
@@ -29,8 +31,14 @@ public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>{
     }
 
     public FruitAdapter(List<Fruit> fruitList) {
-        mFruitList = fruitList;
+        this.mFruitList = fruitList;
     }
+
+    public FruitAdapter(Context context,List<Fruit> fruitList){
+        this.context = context;
+        this.mFruitList = fruitList;
+    }
+
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
