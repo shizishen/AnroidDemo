@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         initData();
         MainactivityAdapter mainactivityAdapter = new MainactivityAdapter(getSupportFragmentManager(),fragmentList);
         viewPager.setAdapter(mainactivityAdapter);
+
+        //viewpager滑动监听
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
